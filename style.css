@@ -35,7 +35,7 @@ p {
     /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
     display: block;
     /* Garante que a imagem se comporte como um bloco para centralização básica se necessário */
-    border: 3px solid #333;
+    border: 3px solid rgb(5, 84, 129);
     /* Borda opcional */
 
 }
