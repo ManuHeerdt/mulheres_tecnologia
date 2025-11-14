@@ -52,5 +52,14 @@ li a{
 
 }
 .rodape{
+    background-color:  rgb(5, 84, 129);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     
 }
