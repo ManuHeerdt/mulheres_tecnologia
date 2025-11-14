@@ -1,8 +1,8 @@
-body { 
-   background-color: rgb(68, 123, 185);
+body {
+    background-color: rgb(68, 123, 185);
 }
 
-.cabecalho{
+.cabecalho {
     background-color: rgb(5, 84, 129);
     color: whitesmoke;
     padding-top: 30px;
@@ -25,34 +25,44 @@ p {
 }
 
 .imgcentro {
-    width: 200px;
+    width: 400px;
+    /* Define uma largura fixa (pode ser ajustada) */
+    height: 400px;
+    /* Define uma altura fixa e igual à largura */
+    border-radius: 50%;
+    /* Transforma o elemento em um círculo/oval */
+    object-fit: cover;
+    /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
+    display: block;
+    /* Garante que a imagem se comporte como um bloco para centralização básica se necessário */
+    border: 3px solid #333;
+    /* Borda opcional */
 
 }
 
-.nav{
+.nav {}
 
-}
-
-li{
+li {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    font-size: 30px;   
+    font-size: 30px;
 
 }
 
-li a{
+li a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
-.button{
+.button {
     font-size: 16px;
     color: rgb(39, 7, 24);
 
 }
-.rodape{
-    background-color:  rgb(5, 84, 129);
+
+.rodape {
+    background-color: rgb(5, 84, 129);
     color: black;
     text-align: center;
     padding: 15px;
@@ -61,5 +71,5 @@ li a{
     position: fixed;
     bottom: 0;
     width: 100%;
-    
+
 }
