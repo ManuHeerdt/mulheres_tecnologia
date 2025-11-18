@@ -17,7 +17,6 @@ body {
 
 .titulo {
     color: aliceblue;
-
 }
 
 p {
@@ -40,7 +39,9 @@ p {
 
 }
 
-.nav {}
+.nav {
+
+}
 
 li {
     display: inline-block;
@@ -79,6 +80,9 @@ li a {
     gap: 15px;
     margin-bottom: 20px;
 }
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 @media(max-width : 768px){
     body{
         font-size: 16px ;
