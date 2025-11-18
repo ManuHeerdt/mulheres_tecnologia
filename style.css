@@ -36,6 +36,10 @@ p {
 
 }
 
+menu{
+    text-align: center;
+}
+
 ul{
     display: block;
 }
