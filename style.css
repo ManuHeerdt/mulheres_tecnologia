@@ -37,12 +37,13 @@ p {
 }
 
 menu{
-    text-align: center;
+
     justify-content: center;
 }
 
 ul{
     display: block;
+        text-align: center;
 }
 
 li {
