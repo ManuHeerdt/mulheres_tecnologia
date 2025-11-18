@@ -36,6 +36,10 @@ p {
 
 }
 
+ul{
+    display: block;
+}
+
 li {
     display: inline-block;
     margin: 30px;
