@@ -53,6 +53,10 @@ li a {
     color: white;
 }
 
+li a:hover{
+    padding: 0px;
+}
+
 .button {
     font-size: 16px;
     color: rgb(39, 7, 24);
